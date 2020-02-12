@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <title>Калькулятор дебита</title>
+</head>
+<body>
+    <h4>Расчет дебита скважины</h4>
+<hr/>
+<p>Введите в нижние поля данные по скважине:</p>
+<p>Введите показание счетчика: <input id="pokaz" type="number" ></p>
+<p>Введите время установки счетчика: <input id="time1" type="time"></p>
+<p>Введите время снятия показаний: <input id="time2" type="time"></p>
+<hr/>
+<button onclick="debit()">Расчитать дебит</button>
+<p id="otvet"></p>    
+</body>
+</html>
