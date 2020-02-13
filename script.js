@@ -1,6 +1,6 @@
 function debit() {
     var t1 = document.getElementById('time1').value;
-    //вернул tt1 и tt2, чтобы в таблице красиво выводило)
+    //вернул tt1 и tt2, чтобы в таблицу красиво выводило)
     var tt1 = t1.split(':');
     var t2 = document.getElementById('time2').value;
     var tt2 = t2.split(':');

@@ -2,11 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Калькулятор дебита</title>
 </head>
 <body>
-    <h4>Расчет дебита скважины</h4>
+    <div class=center>
+    <h4 class=header>Расчет дебита скважины</h4>
 <hr/>
 <p>Введите в нижние поля данные по скважине:</p>
 <p>Введите показание счетчика: <input id="pokaz" type="number" ></p>
@@ -15,13 +17,14 @@
 <hr/>
 <button onclick="debit()">Расчитать дебит</button>
 <p id="otvet"></p> 
-<table border="1">
+<table class=tabliza border="1">
     <tr>
-     <td id=tab1 width=150px align="center">Время 1</td>
-     <td id=tab2 width=150px align="center">Время 2</td>
-     <td id=tab3 width=150px align="center">Показание</td>
-     <td id=tab4 width=150px align="center">Ответ</td>
+     <td class=tabl id=tab1>Время 1</td>
+     <td class=tabl id=tab2>Время 2</td>
+     <td class=tabl id=tab3>Показание</td>
+     <td class=tabl id=tab4>Ответ</td>
    </tr>
   </table>   
+  </div>
 </body>
 </html>

@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 5px white;
+    
+}
+.tabl {
+    width: 150px;
+}
+
+.center {
+    width: 500px;
+    margin: auto;
+    background: url(sk.jpg) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.tabliza {
+    margin: auto;
+}
+
+.header {
+      
+
+}
