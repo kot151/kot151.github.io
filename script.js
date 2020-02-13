@@ -17,7 +17,7 @@ function debit() {
     document.getElementById('otvet').innerHTML = deb;
     document.getElementById('tab1').innerHTML = t1;
     document.getElementById('tab2').innerHTML = t2;
-    document.getElementById('tab3').innerHTML = pokaz;
+    document.getElementById('tab3').innerHTML = p1;
     document.getElementById('tab4').innerHTML = deb;
     //alert(deb);
 }
