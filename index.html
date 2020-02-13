@@ -16,14 +16,20 @@
 <p>Введите время снятия показаний: <input id="time2" type="time"></p>
 <hr/>
 <button onclick="debit()">Расчитать дебит</button>
+<button onclick="clearTable()">Очистить таблицу</button>
 <p id="otvet"></p> 
-<table class=tabliza border="1">
-    <tr>
-     <td class=tabl id=tab1>Время 1</td>
-     <td class=tabl id=tab2>Время 2</td>
-     <td class=tabl id=tab3>Показание</td>
-     <td class=tabl id=tab4>Ответ</td>
-   </tr>
+<table id="table" border="1">
+    <thead>
+        <tr id="tabliz">
+            <td>Время 1</td>
+            <td>Время 2</td>
+            <td>Показание</td>
+            <td>Ответ</td>
+       </tr>
+    </thead>
+    <tbody id="tableBody">
+        
+    </tbody>
   </table>   
   </div>
 </body>
