@@ -20,40 +20,19 @@ function debit() {
         deb = p1;
     }
    
-    var row = document.createElement('tr');
+    let row = document.createElement('tr');
     tbody.appendChild(row);
     let arr = Array([t1],[t2],[p1],[deb]);
         arr.forEach(function(item){
-        //console.log(item);
-        var column = document.createElement('td');
+        let column = document.createElement('td');
         tbody.appendChild(column);
         column.innerHTML = (item);
         
 });
-//console.log(arr);
-    // document.getElementById('tabliz').innerHTML = 
-    
-    //console.log(tbody);
-    //var row = document.createElement('tr');
-    //var time1 = document.createElement('td');
-    //var time2 = document.createElement('td');
-    //var value = document.createElement('td');
-    //var response = document.createElement('td');
-    //time1.innerHTML = arr[0];
-    //time2.innerHTML = arr[1];
-    //value.innerHTML = arr[2];
-    //response.innerHTML = arr[3];
-    //tbody.appendChild(row);
-    //row.appendChild(time1);
-    //row.appendChild(time2);
-    //row.appendChild(value);
-    //row.appendChild(response);
+
 };
 
 function clearTable() {
     tbody.innerHTML = '';
-    //var table = document.getElementById('table');
-    //var child = table.lastElementChild;
-    //console.log(child);
-    //table.removeChild(child);
+    
 };
