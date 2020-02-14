@@ -19,19 +19,15 @@ function debit() {
     else {
         deb = p1;
     }
-    //alert(deb);
-    //document.getElementById('otvet').innerHTML = deb;
-    //document.getElementById('tab1').innerHTML = t1;
-    //document.getElementById('tab2').innerHTML = t2;
-    //document.getElementById('tab3').innerHTML = p1;
-    //document.getElementById('tab4').innerHTML = deb;
+   
     var row = document.createElement('tr');
     tbody.appendChild(row);
     let arr = Array([t1],[t2],[p1],[deb]);
-    const copy = [];
-    arr.forEach(function(item){
-        console.log(item);
-        document.getElementById(tableBody).innerHTML = ('td' + item + 'td');
+        arr.forEach(function(item){
+        //console.log(item);
+        var column = document.createElement('td');
+        tbody.appendChild(column);
+        column.innerHTML = (item);
         
 });
 //console.log(arr);
