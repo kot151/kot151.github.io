@@ -16,4 +16,11 @@ td {
     background-repeat: no-repeat;
 
 }
-
+.center2 {
+    width: 500px;
+    margin: auto;
+}
+table {
+    border: 1px solid blue;
+    background-color: ivory;
+}
