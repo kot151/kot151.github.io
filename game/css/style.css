@@ -1,0 +1,60 @@
+body {
+    background: url(../img/cosmos.jpg) no-repeat;
+    background-size: cover;
+ }
+
+#enemy {
+   width: 424px;
+   height: 201px;
+   background: url(../img/ufo.png) no-repeat center center;
+   
+   
+
+}
+
+
+
+ .sky {
+     
+     margin: 0 auto;
+     width: 1000px;
+     height: 100px;
+ }
+ .field {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+}
+
+ .starship {
+     
+     margin: 0 auto;
+     width: 1000px;
+     height: 150px;
+     
+ }
+
+
+ #enemy{
+   animation: shipfly 5s infinite alternate;
+   position: relative;
+   transition: all ease 50ms;
+
+
+ }
+ #myship {
+   position: relative;
+   transition: all ease 50ms;
+
+ }
+
+ 
+
+#enbullet {
+
+  position: absolute;
+}
+
+    #enemykoord, #mykoord {
+      color: white;
+    }
