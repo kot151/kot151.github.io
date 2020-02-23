@@ -15,7 +15,7 @@ body {
 
 
  .sky {
-     
+     position: relative;
      margin: 0 auto;
      width: 1000px;
      height: 100px;
@@ -27,7 +27,7 @@ body {
 }
 
  .starship {
-     
+     position: relative;
      margin: 0 auto;
      width: 1000px;
      height: 150px;
@@ -37,13 +37,13 @@ body {
 
  #enemy{
    animation: shipfly 5s infinite alternate;
-   position: relative;
+   position: absolute;
    transition: all ease 50ms;
 
 
  }
  #myship {
-   position: relative;
+   position: absolute;
    transition: all ease 50ms;
 
  }

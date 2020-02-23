@@ -20,13 +20,13 @@ var pos = 0, back = true, bulletpos = 0,
 animation = setInterval(function(){
 	 pos += back ? 10 : -10;
      if (pos>600||pos<0)  back = !back;
-	 enemy.style.marginLeft = pos + 'px';
+	 enemy.style.left = pos + 'px';
 	 document.getElementById("enemykoord").innerHTML=pos;
 	 //полет пули вражеского звездолета
-	 if (bulletpos < 450) {
+	 if (bulletpos < 650) {
 		 bulletpos = bulletpos + 10;
-	 	 enbullet.style.marginTop = bulletpos + 'px';
-		 enbullet.style.Left = left + 'px';
+	 	 enbullet.style.top = bulletpos + 'px';
+		 enbullet.style.left = left + 'px';
 	 }
 	 else {bulletpos = 0};
 
