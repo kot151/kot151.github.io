@@ -3,47 +3,22 @@ body {
     background-size: cover;
  }
 
-#enemy {
-   width: 424px;
-   height: 201px;
-   background: url(../img/ufo.png) no-repeat center center;
-   
-   
+.battlefield {
+  width: 1000px;
+  position: relative;
 
 }
-
-
-
- .sky {
-     position: relative;
-     margin: 0 auto;
-     width: 1000px;
-     height: 100px;
- }
- .field {
-    margin: 0 auto;
-    width: 1000px;
-    height: 500px;
-}
-
- .starship {
-     position: relative;
-     margin: 0 auto;
-     width: 1000px;
-     height: 150px;
-     
- }
-
 
  #enemy{
    animation: shipfly 5s infinite alternate;
    position: absolute;
    transition: all ease 50ms;
 
-
  }
+
  #myship {
-   position: absolute;
+   bottom: 0;
+   position: fixed;
    transition: all ease 50ms;
 
  }
@@ -55,6 +30,6 @@ body {
   position: absolute;
 }
 
-    #enemykoord, #mykoord {
+#enemykoord, #mykoord, #enbulvkoord, #enbulhkoord {
       color: white;
     }
