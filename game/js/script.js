@@ -13,15 +13,11 @@ window.onkeydown = function move_left(event){
 		left=left+20;
 		}
 	
-	}
+	
 	document.getElementById('myship').style.left = left + 'px';
 	document.getElementById('mykoord').innerHTML = left;
 
 
-window.onkeydown = function shoot(event){
-	if(event.keyCode==32){
-		
-		}
 	
 };
 
