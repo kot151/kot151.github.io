@@ -12,12 +12,17 @@ window.onkeydown = function move_left(event){
 	else if(event.keyCode==39 && left != windowW - +180){
 		left=left+20;
 		}
-	else if(event.keyCode==32){
-        //пуляем от пробела
-
+	
 	}
 	document.getElementById('myship').style.left = left + 'px';
 	document.getElementById('mykoord').innerHTML = left;
+};
+
+window.onkeydown = function shoot(event){
+	if(event.keyCode==32){
+		
+		}
+	
 };
 
 
@@ -39,17 +44,22 @@ animation = setInterval(function(){
 		bullethpos = 180;
 		enbullet.style.top = bullethpos + 'px';
 		enbullet.style.left = enemypos + +185 + 'px';
-		bulletvpos = enemypos;
+		bulletvpos = enemypos + +185;
 		document.getElementById('enbulvkoord').innerHTML = bulletvpos;		 
 	};
 	
 	document.getElementById('enbulhkoord').innerHTML = bullethpos;
 
-	if (bullethpos >= 660 && (bulletvpos >= left - +20 && bulletvpos <= left + +20)) {
-		alert('popadanie!')
+	if (bullethpos >= windowH - +300 && (bulletvpos >= left - +10 && bulletvpos <= left + +150)) {
+		let expl = document.getElementById('myship');
+		expl.setAttribute('src','img/exp.png');
+		
+		alert('Вы проиграли, начинаем заново!');
+		window.location = window.location.href;
 	};
 
 
-},50);
+
+},100);
 
 
