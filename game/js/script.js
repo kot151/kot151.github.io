@@ -12,8 +12,7 @@ window.onkeydown = function move_left(event){
 	else if(event.keyCode==39 && left != windowW - +180){
 		left=left+20;
 		}
-	
-	
+		
 	document.getElementById('myship').style.left = left + 'px';
 	document.getElementById('mykoord').innerHTML = left;
 
