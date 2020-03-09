@@ -1,5 +1,5 @@
 var tbody = document.querySelector('#tableBody');
-function debit() {
+const debit = () => {
 
     let t1 = document.getElementById('time1').value;
     //вернул tt1 и tt2, чтобы в таблицу красиво выводило)
