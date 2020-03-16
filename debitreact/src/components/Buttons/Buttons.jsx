@@ -2,12 +2,14 @@ import React from "react";
 import style from "./Buttons.module.css";
 import { time1, time2, pokaz } from "./../Calc/Calc";
 
+let debit = "";
+
 class Buttons extends React.Component {
   render() {
-    let debit = "";
+    
     return (
       <div className={style.b}>
-        <button onClick={this.debit}>Расчитать дебит</button>
+        <button onClick={debit}>Расчитать дебит</button>
 
         <hr />
         
@@ -16,7 +18,7 @@ class Buttons extends React.Component {
   }
 }
 
-let debit = () => {
+debit = () => {
   let t1 = time1.current.value;
   let tt1 = t1.split(":");
   let t2 = time2.current.value;
@@ -32,6 +34,7 @@ let debit = () => {
   } else {
     deb = p1;
   }
+  
 };
 
 export let t1;
