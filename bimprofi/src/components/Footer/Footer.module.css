@@ -1,0 +1,15 @@
+.footer {
+  height: 60px;
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+  background-color: #e7e7e7;
+  margin-top: 20px;
+}
+.footerText {
+  position: relative;
+  top: 30%;
+  font-size: 12px;
+  color: black;
+
+}

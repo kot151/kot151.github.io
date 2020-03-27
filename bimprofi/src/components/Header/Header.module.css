@@ -1,0 +1,14 @@
+.hdr {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px){
+.hdr{
+  justify-content: space-between;
+
+}
+
+}

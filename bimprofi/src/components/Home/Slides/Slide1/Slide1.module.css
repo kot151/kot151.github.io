@@ -1,0 +1,84 @@
+.slide1 {
+  overflow: auto;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.text {
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10px 40px;
+}
+.txt1 {
+  font-size: 32px;
+}
+.txt2 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.image {
+  display: block;
+  overflow: hidden;
+  float: right;
+}
+.img1 {
+  margin-top: 0px;
+  float: right;
+  margin-right: 0px;
+  width: 100%;
+  background-image: url(./../../../../img/img1.png);
+  background-size: cover;
+}
+
+/* для шиширы экрвнв 320 и более */
+@media (min-width: 320px) {
+  .img1 {
+    
+    margin-right: 0px;
+    width: 100%;
+  }
+  .txt1 {
+    font-size: 28px;
+  }
+  .text {
+    float: left;
+
+    margin-top: 100px;
+    text-align: left;
+  }
+}
+
+/* для шиширы экрвнв 768 и более */
+@media (min-width: 768px) {
+  .img1 {
+    
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .text {
+    float: left;
+
+    margin-top: 100px;
+    text-align: left;
+  }
+}
+/* для шиширы экрвнв 1500 и более */
+@media (min-width: 1500px) {
+  .img1 {
+    float: right;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .text {
+    float: left;
+
+    margin-top: 100px;
+    text-align: left;
+  }
+}
