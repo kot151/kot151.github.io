@@ -37,7 +37,6 @@
 /* для шиширы экрвнв 320 и более */
 @media (min-width: 320px) {
   .img1 {
-    
     margin-right: 0px;
     width: 100%;
   }
@@ -53,22 +52,26 @@
 }
 
 /* для шиширы экрвнв 768 и более */
-@media (min-width: 768px) {
+@media (min-width: 1288px) {
+  .slide1 {
+   
+  }
   .img1 {
     
-    margin-right: 0px;
-    width: 100%;
   }
 
   .text {
-    float: left;
-
-    margin-top: 100px;
-    text-align: left;
+    
   }
 }
 /* для шиширы экрвнв 1500 и более */
-@media (min-width: 1500px) {
+
+@media (min-width: 1440px) {
+  .slide1 {
+   
+    
+    grid-template-columns: 1fr 1fr;
+  }
   .img1 {
     float: right;
     margin-right: 0px;
