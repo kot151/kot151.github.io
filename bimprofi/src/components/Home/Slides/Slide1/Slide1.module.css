@@ -8,7 +8,7 @@
 
 .text {
   text-align: center;
-  border: 1px solid gray;
+
   padding: 0px 20px;
 }
 .txt1 {
@@ -23,11 +23,10 @@
 .image {
   display: block;
   overflow: hidden;
-  
 }
 .img1 {
   margin-top: 0px;
-  
+
   width: 100%;
   background-image: url(./../../../../img/img1.png);
   background-size: cover;
@@ -49,7 +48,7 @@
   }
   .text {
     margin: auto;
-    
+
     text-align: left;
   }
 }
@@ -69,8 +68,7 @@
     font-size: 32px;
   }
   .text {
-    
-float: left;
+    float: left;
     text-align: left;
   }
 }

@@ -8,13 +8,13 @@ class Slide1 extends Component {
     return (
       <div className={style.slide1}>
         <div className={style.text}>
-          <p className={style.txt1}>Закажите проект отопления на BIMпрофи.ru</p>
+          <p className={style.txt1}>Проект отопления на BIMпрофи.ru</p>
           <p className={style.txt2}>
-            Получите качественный продукт, соответствующий всем нормативам, за
+            Это качественный продукт, соответствующий всем нормативам, за
             короткие сроки
           </p>
           <Button className={style.button} variant="primary">
-            Напишите нам
+            Связаться
           </Button>
         </div>
         <div className={style.image}>
