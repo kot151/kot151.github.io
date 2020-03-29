@@ -2,74 +2,41 @@
   overflow: auto;
   text-align: center;
   background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .text {
   text-align: center;
   border: 1px solid gray;
-  padding: 10px 40px;
+  padding: 0px 20px;
 }
 .txt1 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .txt2 {
   font-size: 16px;
-  margin-top: 20px;
 }
 .button {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .image {
   display: block;
   overflow: hidden;
-  float: right;
+  
 }
 .img1 {
   margin-top: 0px;
-  float: right;
-  margin-right: 0px;
+  
   width: 100%;
   background-image: url(./../../../../img/img1.png);
   background-size: cover;
 }
 
-/* для шиширы экрвнв 320 и более */
-@media (min-width: 320px) {
-  .img1 {
-    margin-right: 0px;
-    width: 100%;
-  }
-  .txt1 {
-    font-size: 28px;
-  }
-  .text {
-    float: left;
-
-    margin-top: 100px;
-    text-align: left;
-  }
-}
-
-/* для шиширы экрвнв 768 и более */
-@media (min-width: 1288px) {
+/* для шиширы экрана 768 и более */
+@media (min-width: 768px) {
   .slide1 {
-   
-  }
-  .img1 {
-    
-  }
-
-  .text {
-    
-  }
-}
-/* для шиширы экрвнв 1500 и более */
-
-@media (min-width: 1440px) {
-  .slide1 {
-   
-    
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .img1 {
@@ -77,11 +44,33 @@
     margin-right: 0px;
     width: 100%;
   }
-
+  .txt1 {
+    font-size: 28px;
+  }
   .text {
-    float: left;
+    margin: auto;
+    
+    text-align: left;
+  }
+}
 
-    margin-top: 100px;
+/* для шиширы экрана 1200 и более */
+@media (min-width: 1200px) {
+  .slide1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .img1 {
+    float: right;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .txt1 {
+    font-size: 32px;
+  }
+  .text {
+    
+float: left;
     text-align: left;
   }
 }

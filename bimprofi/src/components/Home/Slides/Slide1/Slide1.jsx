@@ -10,7 +10,7 @@ class Slide1 extends Component {
         <div className={style.text}>
           <p className={style.txt1}>Закажите проект отопления на BIMпрофи.ru</p>
           <p className={style.txt2}>
-            Получите качественный продукт, соответсвующий всем нормативам, за
+            Получите качественный продукт, соответствующий всем нормативам, за
             короткие сроки
           </p>
           <Button className={style.button} variant="primary">
