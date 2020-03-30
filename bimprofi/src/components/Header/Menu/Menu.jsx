@@ -15,8 +15,8 @@ class Menu extends React.Component {
         <NavLink className={style.nav} to="/price">
           Прайс
         </NavLink>
-        <NavLink className={style.nav} to="/about">
-          О нас
+        <NavLink className={style.nav} to="/contacts">
+          Контакты
         </NavLink>
       </div>
     );
