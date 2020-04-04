@@ -1,19 +1,32 @@
+.menu {
+}
 .nav {
   padding: 10px;
   color: black;
   text-transform: uppercase;
+  display: none;
 }
 
 .nav:hover {
   color: gray;
 }
-
-.menu {
-  display: none;
+.menuicon {
+  display: block;
+  height: 45px;
 }
+.close {
+  display: none;
+  height: 45px;
+}
+
 @media (min-width: 768px) {
-  .menu {
-    justify-content: space-between;
+  .menuicon {
+    display: none;
+  }
+  .nav {
     display: inline;
+  }
+  .close {
+    display: none;
   }
 }
