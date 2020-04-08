@@ -3,14 +3,13 @@ import style from "./Buttons.module.css";
 import Table from "./../Table/Table";
 import { time1, time2, pokaz } from "./../Calc/Calc";
 
-
 let t1 = "";
 let t2 = "";
 let p1 = "";
 let deb = "";
 
 let debit = () => {
- t1 = time1.current.value;
+  t1 = time1.current.value;
   let tt1 = t1.split(":");
   t2 = time2.current.value;
   let tt2 = t2.split(":");
@@ -37,6 +36,5 @@ class Buttons extends React.Component {
     );
   }
 }
-
 
 export default Buttons;
