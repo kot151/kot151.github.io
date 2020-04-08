@@ -31,7 +31,6 @@ class Buttons extends React.Component {
     return (
       <div className={style.b}>
         <button onClick={debit}>Расчитать дебит</button>
-
         <hr />
         <Table t1={t1} t2={t2} p1={p1} deb={deb} />
       </div>
