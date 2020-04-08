@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./Table.module.css";
 
-
 class Table extends React.Component {
   render() {
     return (
