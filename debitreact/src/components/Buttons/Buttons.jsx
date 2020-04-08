@@ -1,29 +1,20 @@
 import React from "react";
 import style from "./Buttons.module.css";
+import Table from "./../Table/Table";
 import { time1, time2, pokaz } from "./../Calc/Calc";
 
-let debit = "";
 
-class Buttons extends React.Component {
-  render() {
-    
-    return (
-      <div className={style.b}>
-        <button onClick={debit}>Расчитать дебит</button>
+let t1 = "";
+let t2 = "";
+let p1 = "";
+let deb = "";
 
-        <hr />
-        
-      </div>
-    );
-  }
-}
-
-debit = () => {
-  let t1 = time1.current.value;
+let debit = () => {
+ t1 = time1.current.value;
   let tt1 = t1.split(":");
-  let t2 = time2.current.value;
+  t2 = time2.current.value;
   let tt2 = t2.split(":");
-  let p1 = pokaz.current.value;
+  p1 = pokaz.current.value;
 
   let h1 = +tt1[0] * 60 + +tt1[1];
   let h2 = +tt2[0] * 60 + +tt2[1];
@@ -34,11 +25,19 @@ debit = () => {
   } else {
     deb = p1;
   }
-  
 };
+class Buttons extends React.Component {
+  render() {
+    return (
+      <div className={style.b}>
+        <button onClick={debit}>Расчитать дебит</button>
 
-export let t1;
-export let t2;
-export let p1;
-export let deb;
+        <hr />
+        <Table t1={t1} t2={t2} p1={p1} deb={deb} />
+      </div>
+    );
+  }
+}
+
+
 export default Buttons;

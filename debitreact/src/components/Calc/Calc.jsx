@@ -12,7 +12,7 @@ class Calc extends React.Component {
         <hr />
         <p>Введите в нижние поля данные по скважине:</p>
         <p>
-          Введите показание счетчика:
+          Введите показание счетчика: 
           <input type="number" id="pokaz" ref={pokaz} />
         </p>
         <p>
