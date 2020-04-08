@@ -5,8 +5,10 @@ class Footer extends Component {
   render() {
     return (
       <div className={style.footer}>
-        <span className={style.footerText}>Создание проектов отопления, вентиляции и канализации. <b>BIM</b>
-        профи.ru</span>
+        <span className={style.footerText}>
+          <b>BIM</b>
+          профи.ru
+        </span>
       </div>
     );
   }
