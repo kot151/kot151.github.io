@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {NavLink} from 'react-router-dom';
 import style from "./Slide2.module.css";
 import support from "./../../../../img/icons/support.png";
 import pc from "./../../../../img/icons/pc.png";
@@ -19,6 +20,9 @@ class Slide2 extends Component {
           <div className={style.pic}>
             <img className={style.img} src={support} />
             <p>Опытные проектировщики</p>
+            <NavLink className={style.nav} to="/home">
+          Подробнее
+        </NavLink>
           </div>
           <div className={style.pic}>
             <img className={style.img} src={pc} />

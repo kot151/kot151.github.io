@@ -6,7 +6,7 @@
   text-transform: uppercase;
   display: none;
 }
-
+img {}
 .nav:hover {
   color: gray;
 }
@@ -16,7 +16,7 @@
 }
 .close {
   display: none;
-  height: 45px;
+  
 }
 
 @media (min-width: 768px) {
