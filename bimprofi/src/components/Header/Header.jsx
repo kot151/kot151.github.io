@@ -3,7 +3,7 @@ import style from "./Header.module.css";
 import Menu from "./Menu/Menu";
 import Logo from "./Logo/Logo";
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
       <div className={style.hdr}>
@@ -13,5 +13,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;

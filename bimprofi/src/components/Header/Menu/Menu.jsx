@@ -1,14 +1,13 @@
 import React from "react";
 import style from "./Menu.module.css";
-import {NavLink} from 'react-router-dom';
-import menuIcon from "./../../../img/icons/menu.png";
-import close from "./../../../img/icons/close.png";
+import { NavLink } from "react-router-dom";
 
 
-class Menu extends React.Component {
+export default class Menu extends React.Component {
   render() {
     return (
       <div className={style.menu}>
+        
         <NavLink className={style.nav} to="/home">
           Главная
         </NavLink>
@@ -21,14 +20,9 @@ class Menu extends React.Component {
         <NavLink className={style.nav} to="/contacts">
           Контакты
         </NavLink>
-        <img src={menuIcon} className={style.menuicon}/>
-        <img src={close} className={style.close}/>
+        
+        <div className={style.mobmenu}></div>
       </div>
     );
   }
 }
-
-
-
-
-export default Menu;

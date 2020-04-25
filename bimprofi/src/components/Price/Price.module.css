@@ -1,4 +1,47 @@
 .prc {
-  padding-top: 50px;
-  color: green;
+  padding-top: 0px;
 }
+h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e7e7e7;
+}
+.head {
+  font-size: 30px;
+  
+  
+}
+
+.ofert {
+  margin-top: 20px;
+  background-color: #e7e7e7;
+  padding: 20px;
+}
+.p {
+  position: relative;
+  background-image: url(./../../img/screen1.png);
+  
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+ 
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.pr {
+  position: relative;
+  font-size: 80px;
+  color: blue;
+  top: 70px;
+}
+.pr sub {
+  font-size: 20px;
+  color: #000;
+}
+h4 {
+  padding: 20px 0;
+}
+ 
