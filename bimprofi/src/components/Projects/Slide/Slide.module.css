@@ -1,18 +1,15 @@
 .slide {
   margin: 20px auto;
   overflow: hidden;
-  
 }
 .head {
-  
-  
   background: white;
   text-align: center;
   padding: 10px;
 }
 .info {
   margin-top: 20px;
-  
+
   background: white;
   text-align: center;
 }
@@ -20,21 +17,31 @@
   margin: 20px;
 }
 .img {
-  
   height: 100px;
+}
+.exam {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 300px;
+  background-color: #e7e7e7;
+}
+p {
+  text-align: center;
+}
+h4 {
+  background-color: #e7e7e7;
 }
 /* для шиширы экрана 768 и более */
 @media (min-width: 768px) {
- 
   .img {
     height: 200px;
   }
- 
 }
 /* для шиширы экрана 1200 и более */
 @media (min-width: 1200px) {
   .slide {
-    
     margin: 20px auto;
   }
 

@@ -1,10 +1,32 @@
-.cntcts {
-  padding: 0 20px;
-  margin: 20pxww;
+.emlfrm {
   background-color: #e7e7e7;
+  padding: 20px;
 }
-.cntcts img{
+
+.cntcts {
+  padding-top: 20px;
   
-  width: 32px;
-  height: 32px;
 }
+.cntcts img {
+  height: 45px;
+}
+.cntcts a {
+  margin: 20px 0;
+ 
+}
+.cntcts a span{
+  margin-left: 20px;
+}
+.mssngrs {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mssngrs p {
+  text-align: left;
+  
+}
+ p {
+   padding-top: 20px;
+ }

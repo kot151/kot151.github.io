@@ -40,7 +40,7 @@ export default function AlertDialog (props) {
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">
-            Понятно
+            Закрыть
           </Button>
         </DialogActions>
       </Dialog>
