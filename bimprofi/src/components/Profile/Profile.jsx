@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import style from "./Projects.module.css";
-import Slide from "./Slide/Slide";
+import style from "./Profile.module.css";
 
-class Projects extends Component {
+
+class Profile extends Component {
   render() {
     return (
-      <div className={style.prj}>
+      <div className={style.prf}>
        <h3>Примеры наших работ</h3> 
         <Slide />
       </div>

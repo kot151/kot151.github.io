@@ -21,7 +21,7 @@ export default class Menu extends React.Component {
           Контакты
         </NavLink>
         <NavLink className={style.nav} to="/profile">
-          ЛК
+          Партнёрка
         </NavLink>
         
         <div className={style.mobmenu}></div>
